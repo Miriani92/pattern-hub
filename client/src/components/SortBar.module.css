@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  width: fit-content;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  background-color: rgb(104, 103, 103);
+  flex-basis: 30px;
+  margin-left: 2.5%;
+}
+
+.wrapper {
+  padding: 0.3rem;
+}
+/* .wrapper > button {
+  all: unset;
+  color: white;
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+} */
+
+.button {
+  all: unset;
+  color: white;
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+}
+.button.active {
+  background-color: rgb(34, 32, 32);
+}

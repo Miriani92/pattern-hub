@@ -1,0 +1,35 @@
+.wrapper {
+  margin: 0 auto;
+  height: 60px;
+  width: 95%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.left > p {
+  padding-top: 0.5rem;
+}
+
+.left > h1 {
+  font-weight: 700;
+}
+.right > button {
+  background-color: rgb(48, 46, 46);
+  border: 1px solid grey;
+  font-size: small;
+  color: white;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
