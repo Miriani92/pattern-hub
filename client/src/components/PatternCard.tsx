@@ -12,7 +12,7 @@ export const PatternCard = ({ name, type }: { name: string; type: string }) => {
           <MdOutlineModeEdit />
         </button>
         <h3 className={styles.main}>{name}</h3>
-        <p>{type}</p>
+        <p className={styles.type}>{type}</p>
       </button>
     </div>
   );

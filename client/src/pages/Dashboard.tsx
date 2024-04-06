@@ -12,6 +12,11 @@ const dummyPattern = [
   { name: "Node", type: "Server" },
   { name: "Node", type: "Server" },
   { name: "Python", type: "Language" },
+  { name: "Node", type: "Server" },
+  { name: "Node", type: "Server" },
+  { name: "Node", type: "Server" },
+  { name: "Node", type: "Server" },
+  { name: "Python", type: "Language" },
 ];
 
 export const Dashboard = () => {
