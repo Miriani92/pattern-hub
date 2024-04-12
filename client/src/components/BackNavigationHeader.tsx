@@ -12,7 +12,7 @@ export const BackNavigationHeader = ({ prev }) => {
       <div className={styles.icon}>
         <IoIosArrowBack />
       </div>
-      <p>Back to {prev}</p>
+      <p>Back to {prev.slice(1)}</p>
     </div>
   );
 };

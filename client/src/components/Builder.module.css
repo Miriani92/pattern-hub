@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 95%;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  flex: 1;
+}

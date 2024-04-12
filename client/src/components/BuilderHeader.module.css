@@ -1,0 +1,40 @@
+.wrapper {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.5rem;
+  border-bottom: 1px solid grey;
+}
+
+.input {
+  background-color: rgb(48, 46, 46);
+  color: white;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+}
+
+.input:focus {
+  border: 1px solid green;
+  border-radius: 0.2rem;
+}
+
+.input:not(:focus):hover {
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+}
+
+.iconsWrapper {
+  display: flex;
+  gap: 0.5rem;
+  color: grey;
+  flex: 1;
+}
+
+.iconsWrapper > button {
+  all: unset;
+  cursor: pointer;
+}
